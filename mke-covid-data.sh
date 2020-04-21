@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Pulls latest COVID-19 Milwaukee time series data from the CSSEGISandData GitHub project
+# and outputs it to two csv files.  The latest vaules from each file are printed to stdout.
+
 workingdir=/Volumes/128GB-SD/tmp
 
 # Initial Clone
